@@ -42,10 +42,10 @@ export const BRAND = {
   
   // Logo & Asset Paths
   logoPaths: {
-    full: "/images/jjh-logo-full.svg",      // TODO: Replace when new logo ready
-    mark: "/images/jjh-mark.svg",           // TODO: Replace when new logo ready
-    favicon: "/images/jjh-favicon.png",     // TODO: Replace when new logo ready
-    headerLogo: "/images/jjh-header-logo.png" // TODO: Replace when new logo ready
+    full: "/images/jasonlogo.png",          // BRANDBOT: Updated to actual Jason's Junk logo
+    mark: "/images/jasonlogo.png",          // BRANDBOT: Using same logo for mark
+    favicon: "/images/jasonlogo.png",       // BRANDBOT: Using same logo for favicon
+    headerLogo: "/images/jasonlogo.png"     // BRANDBOT: Updated to actual Jason's Junk logo
   },
   
   // Social Media (Currently disabled per user request)

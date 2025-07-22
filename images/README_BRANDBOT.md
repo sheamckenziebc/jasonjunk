@@ -7,11 +7,11 @@ This document lists all required image assets for the Jason's Junk Hauling websi
 ### Primary Logo Files
 | Asset | Current Path | Dimensions | Usage | Format |
 |-------|-------------|------------|-------|---------|
-| Main Logo | `/images/jjh-logo-full.svg` | Vector | Header, footer, general branding | SVG (preferred) |
-| Logo Mark | `/images/jjh-mark.svg` | Vector | Small spaces, favicons | SVG |
-| Header Logo | `/images/jjh-header-logo.png` | 200x69px | Website header navigation | PNG with transparency |
-| Favicon | `/images/jjh-favicon.png` | 32x32px | Browser tab icon | PNG |
-| Large Favicon | `/images/jjh-favicon-large.png` | 180x180px | Mobile app icons | PNG |
+| Main Logo | `/images/jasonlogo.png` | 1.4MB | Header, footer, general branding | PNG |
+| Logo Mark | `/images/jasonlogo.png` | 1.4MB | Small spaces, favicons | PNG |
+| Header Logo | `/images/jasonlogo.png` | 1.4MB | Website header navigation | PNG |
+| Favicon | `/images/jasonlogo.png` | 1.4MB | Browser tab icon | PNG |
+| Large Favicon | `/images/jasonlogo.png` | 1.4MB | Mobile app icons | PNG |
 
 ### Logo Specifications
 - **Color Scheme**: Safety orange (#F97316) primary, recycling green (#16A34A) accent
@@ -84,10 +84,10 @@ Create a `/images/gallery/` directory with:
 ## 🔄 Migration Plan
 
 ### Phase 1: Critical Assets (Required for launch)
-1. ✅ Main logo (header/footer)
-2. ✅ Favicon
-3. ✅ Hero background image
-4. ✅ Core service images (5)
+1. ✅ Main logo (header/footer) - **COMPLETED**
+2. ✅ Favicon - **COMPLETED**
+3. ⏳ Hero background image
+4. ⏳ Core service images (5)
 
 ### Phase 2: Enhanced Content
 1. Equipment gallery images
