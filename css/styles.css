@@ -1,17 +1,17 @@
 /* 
-   Island Drains & Excavation - Main Stylesheet
-   BRANDBOT: Updated from Loyalty 6 Energy Services branding
+   Jason's Junk Hauling - Main Stylesheet
+   BRANDBOT: Updated from Island Drains & Excavation branding
    Author: Cascade AI
    Date: March 14, 2025
 */
 
 /* ---------- Base Styles ---------- */
 :root {
-    /* BRANDBOT: Updated color scheme for Island Drains marine/professional theme */
-    --primary-color: #0C4A6E; /* Deep marine blue */
-    --secondary-color: #FCD34D; /* Hazard yellow accent */
-    --accent-color: #0369A1; /* Bright blue */
-    --dark-color: #1E1E1E; /* Dark gray */
+    /* BRANDBOT: Updated color scheme for Jason's Junk Hauling - high-visibility orange + recycling green */
+    --primary-color: #F97316; /* Safety orange */
+    --secondary-color: #16A34A; /* Recycling green accent */
+    --accent-color: #EA580C; /* Darker orange for hover states */
+    --dark-color: #1E1E1E; /* Dark charcoal */
     --light-color: #F9FAFB; /* Light gray */
     --text-color: #333333;
     --text-light: #ffffff;

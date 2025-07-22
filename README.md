@@ -1,10 +1,10 @@
-# Island Drains & Excavation Website
+# Jason's Junk Hauling Website
 
-A professional website for Island Drains & Excavation, a drainage and excavation service company serving Vancouver Island, British Columbia.
+A professional website for Jason's Junk Hauling, a junk removal and hauling service company serving Victoria and South Vancouver Island, British Columbia.
 
 ## Overview
 
-This website showcases Island Drains & Excavation's expertise in drainage and excavation services, highlighting their services, specialties, and company information. The website is designed to be responsive, modern, and user-friendly.
+This website showcases Jason's Junk Hauling's expertise in junk removal and hauling services, highlighting their services, specialties, and company information. The website is designed to be responsive, modern, and user-friendly.
 
 ## Features
 
@@ -17,7 +17,7 @@ This website showcases Island Drains & Excavation's expertise in drainage and ex
 ## File Structure
 
 ```
-IslandDrainsWebsite/
+JasonsJunkWebsite/
 ├── css/
 │   └── styles.css
 ├── images/

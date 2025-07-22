@@ -11,47 +11,40 @@ const readline = require('readline');
 // Default token patterns to search for
 const DEFAULT_TOKENS = [
   // Company names
-  /loyalty\s*6/gi,
-  /loyalty\s*six/gi,
-  /\bl6\b/gi,
-  /loyalty.*energy.*services/gi,
+  /island\s*drains/gi,
+  /island\s*drains\s*&\s*excavation/gi,
+  /islanddrainsandexcavation/gi,
+  /\bide\b/gi,
   
   // Domains
-  /loyalty6\.ca/gi,
-  /www\.loyalty6\.ca/gi,
+  /islanddrainsandexcavation\.ca/gi,
+  /www\.islanddrainsandexcavation\.ca/gi,
   
   // Contact info
-  /250[\s\-\.]?719[\s\-\.]?4573/gi,
-  /\+1[\s\-\.]?250[\s\-\.]?719[\s\-\.]?4573/gi,
-  /info@loyalty6\.ca/gi,
+  /250[\s\-\.]?818[\s\-\.]?5611/gi,
+  /\+1[\s\-\.]?250[\s\-\.]?818[\s\-\.]?5611/gi,
+  /info@islanddrainsandexcavation\.ca/gi,
   
-  // Old colors (Loyalty6 brand colors)
-  /#B8C49D/gi,
-  /#556B2F/gi,
-  /#8BA446/gi,
-  /#3A4A1C/gi,
-  
-  // Location references
-  /dawson\s*creek/gi,
+  // Old colors (Island Drains brand colors)
+  /#0C4A6E/gi,
+  /#FCD34D/gi,
+  /#0369A1/gi,
   
   // Industry references that need updating
-  /oil.*gas/gi,
-  /energy.*sector/gi,
-  /pipefitting/gi,
-  /crew.*truck/gi,
-  /hot.*shot/gi,
-  
-  // Social media
-  /linkedin\.com\/company\/loyalty/gi,
-  /facebook\.com.*loyalty/gi,
+  /drain\s*cleaning/gi,
+  /excavation\s*services/gi,
+  /perimeter\s*drains/gi,
+  /lift\s*station/gi,
+  /retaining\s*walls/gi,
   
   // File references
-  /l6logo/gi,
-  /loyalty.*logo/gi,
+  /idelogo/gi,
+  /ide.*logo/gi,
+  /herobgfinalide/gi,
   
   // Business references
-  /ccab\.com.*loyalty/gi,
-  /first.*nations.*majority/gi
+  /drainage\s*and\s*excavation/gi,
+  /professional\s*drain\s*services/gi
 ];
 
 // Files and directories to exclude from scanning

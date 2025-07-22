@@ -1,13 +1,13 @@
-/* BRANDBOT: Updated color scheme for Island Drains & Excavation */
+/* BRANDBOT: Updated color scheme for Jason's Junk Hauling */
 /* Global font settings */
 :root {
-    --dark-bg: #f5f7fa; /* Light gray with blue hue */
-    --darker-bg: #e8ecf1; /* Slightly darker light gray with blue hue */
+    --dark-bg: #f5f7fa; /* Light gray background */
+    --darker-bg: #e8ecf1; /* Slightly darker light gray */
     --light-text: #2d3748; /* Dark text for light background */
     --muted-text: #4a5568; /* Medium gray text */
-    --accent-color: #0369A1; /* Updated to Island Drains blue */
-    --secondary-color: #FCD34D; /* Updated to hazard yellow */
-    --dark-accent: #0C4A6E; /* Updated to deep marine blue */
+    --accent-color: #EA580C; /* Updated to Jason's Junk darker orange */
+    --secondary-color: #16A34A; /* Updated to recycling green */
+    --dark-accent: #F97316; /* Updated to safety orange */
     --card-bg: #ffffff; /* White cards */
     --hover-bg: #f8fafc; /* Very light gray hover */
 }
@@ -142,9 +142,9 @@ header {
     text-decoration: none;
 }
 
-/* BRANDBOT: Updated logo text color for Island Drains */
+/* BRANDBOT: Updated logo text color for Jason's Junk Hauling */
 .logo-text {
-    color: #0369A1; /* Updated to Island Drains blue */
+    color: #F97316; /* Updated to Jason's Junk orange */
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 1.5rem;
@@ -156,7 +156,7 @@ header {
 .logo a .logo-text,
 header .logo a .logo-text,
 body header .container .logo a .logo-text {
-    color: #0369A1 !important; /* BRANDBOT: Updated to Island Drains blue */
+    color: #F97316 !important; /* BRANDBOT: Updated to Jason's Junk orange */
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 1.5rem;

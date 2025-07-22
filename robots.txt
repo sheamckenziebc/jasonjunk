@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-# BRANDBOT: Updated sitemap URL for Island Drains domain
-Sitemap: https://islanddrainsandexcavation.ca/sitemap.xml 
+# BRANDBOT: Updated sitemap URL for Jason's Junk Hauling domain
+Sitemap: https://jasonsjunkhauling.ca/sitemap.xml 

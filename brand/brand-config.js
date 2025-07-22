@@ -1,51 +1,51 @@
 // BRANDBOT: SINGLE SOURCE OF BRAND TRUTH
-// All downstream code must import from BRAND object. No hard-coded names, colours, phones, or emails.
+// All brand data for Jason's Junk Hauling lives here. Do not hard-code brand strings/colors elsewhere.
 // This file enables rapid re-skinning for future client transformations.
 
 export const BRAND = {
   // Company Identity
-  companyName: "Island Drains & Excavation",
-  shortName: "Island Drains",
-  legalName: "Island Drains & Excavation Ltd.",
-  tagline: "Professional Drain Services & Excavation Solutions",
+  companyName: "Jason's Junk Hauling",
+  shortName: "Jason's Junk",
+  legalName: "Jason's Junk Hauling Ltd.",
+  tagline: "Fast, Reliable Junk Removal & Hauling Services",
   
   // Domain Configuration
-  primaryDomain: "islanddrainsandexcavation.ca",
-  altDomains: ["www.islanddrainsandexcavation.ca"],
+  primaryDomain: "jasonsjunkhauling.ca",
+  altDomains: ["www.jasonsjunkhauling.ca"],
   
   // Contact Information
-  primaryPhoneDisplay: "(250) 818-5611",
-  primaryPhoneDial: "+12508185611",
-  primaryEmail: "info@islanddrainsandexcavation.ca",
+  primaryPhoneDisplay: "(250) 555-0200", // TODO: Update with actual phone
+  primaryPhoneDial: "+12505550200",
+  primaryEmail: "info@jasonsjunkhauling.ca", // TODO: Update with actual email
   
   // Service Area
-  serviceArea: ["Victoria", "Southern Vancouver Island"],
+  serviceArea: ["Greater Victoria", "South Vancouver Island", "Gulf Islands"],
   primaryLocation: "Victoria, BC",
   
   // Address (TODO: Get actual business address)
   addressLines: [
-    "123 Example Rd", // TODO: Replace with actual address
+    "<<<Street>>>", // TODO: Replace with actual address
     "Victoria, BC",
-    "V8X 1A1" // TODO: Replace with actual postal code
+    "<<<Postal>>>" // TODO: Replace with actual postal code
   ],
   
-  // Color Scheme - Marine/Professional Theme
+  // Color system: high-visibility junk/demo orange + dark charcoal + recycling green accent
   colours: {
-    primary: "#0C4A6E",        // Deep marine blue
-    secondary: "#FCD34D",      // Hazard yellow accent
-    accent: "#0369A1",         // Bright blue
-    neutralDark: "#1E1E1E",    // Dark gray
-    neutralLight: "#F9FAFB",   // Light gray
-    success: "#059669",        // Green for success states
-    warning: "#D97706",        // Orange for warnings
+    primary: "#F97316",      // Safety orange
+    secondary: "#16A34A",    // Recycling green accent
+    accent: "#EA580C",       // Darker orange for hover states
+    neutralDark: "#1E1E1E",  // Dark charcoal
+    neutralLight: "#F9FAFB", // Light gray
+    success: "#059669",      // Green for success states
+    warning: "#D97706",      // Orange for warnings
   },
   
   // Logo & Asset Paths
   logoPaths: {
-    full: "/images/ide-logo-full.svg",      // TODO: Replace when new logo ready
-    mark: "/images/ide-mark.svg",           // TODO: Replace when new logo ready
-    favicon: "/images/ide-favicon.png",     // TODO: Replace when new logo ready
-    headerLogo: "/images/ide-header-logo.png" // TODO: Replace when new logo ready
+    full: "/images/jjh-logo-full.svg",      // TODO: Replace when new logo ready
+    mark: "/images/jjh-mark.svg",           // TODO: Replace when new logo ready
+    favicon: "/images/jjh-favicon.png",     // TODO: Replace when new logo ready
+    headerLogo: "/images/jjh-header-logo.png" // TODO: Replace when new logo ready
   },
   
   // Social Media (Currently disabled per user request)
@@ -59,14 +59,17 @@ export const BRAND = {
   // Services Configuration
   services: {
     primary: [
-      "Residential Drain Services",
-      "Commercial Excavation", 
-      "Emergency Drain Cleaning"
+      "Residential Junk Removal",
+      "Contractor & Renovation Debris", 
+      "Light Demolition",
+      "Yard Waste Removal",
+      "Appliance & Furniture Removal",
+      "Dump Runs"
     ],
     categories: {
       residential: "Residential Services",
       commercial: "Commercial Services", 
-              emergency: "Services"
+      emergency: "Same-Day Pickup"
     }
   },
   
@@ -75,20 +78,23 @@ export const BRAND = {
     founded: null, // TODO: Add founding year if known
     yearsInBusiness: null, // TODO: Calculate from founding year
     serviceRadius: "Greater Victoria Area",
-            emergencyService: false,
+    emergencyService: true, // Same-day pickup available
     licensed: true, // Assumed for professional service
     insured: true   // Assumed for professional service
   },
   
   // SEO & Meta Configuration  
   seo: {
-    defaultTitle: "Island Drains & Excavation - Professional Drain Services Victoria BC",
-            defaultDescription: "Professional drain cleaning, excavation and excavation services serving Victoria and Southern Vancouver Island. Licensed and insured.",
-            keywords: ["drain cleaning", "excavation", "Victoria BC", "drain service", "residential drains", "commercial excavation"],
+    defaultTitle: "Jason's Junk Hauling - Fast Junk Removal & Hauling Services Victoria BC",
+    defaultDescription: "Professional junk removal and hauling services serving Victoria and South Vancouver Island. Same-day pickup, competitive pricing, licensed and insured.",
+    keywords: ["junk removal", "hauling", "Victoria BC", "junk pickup", "residential junk", "commercial hauling", "same-day pickup"],
     locale: "en_CA",
     region: "BC",
     placename: "Victoria"
-  }
+  },
+
+  // Form endpoint for contact forms
+  formEndpoint: "", // TODO: Add Formspree/Getform URL
 };
 
 // Validation function to ensure all required brand elements are configured
